@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-21T19:53:07 IST" name="Default suite" finished-at="2024-02-21T19:53:27 IST" duration-ms="20265">
+    <groups>
+    </groups>
+    <test started-at="2024-02-21T19:53:07 IST" name="Default test" finished-at="2024-02-21T19:53:27 IST" duration-ms="20265">
+      <class name="tests.CheckoutTest">
+        <test-method is-config="true" signature="initialiazeBrowser()[pri:0, instance:tests.CheckoutTest@34a3d150]" started-at="2024-02-21T19:53:07 IST" name="initialiazeBrowser" finished-at="2024-02-21T19:53:17 IST" duration-ms="10143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialiazeBrowser -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.CheckoutTest@34a3d150]" started-at="2024-02-21T19:53:17 IST" name="setup" finished-at="2024-02-21T19:53:20 IST" depends-on-methods="library.BaseClass.initialiazeBrowser" duration-ms="3403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkout()[pri:1, instance:tests.CheckoutTest@34a3d150]" started-at="2024-02-21T19:53:20 IST" name="checkout" finished-at="2024-02-21T19:53:26 IST" duration-ms="5367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout -->
+        <test-method signature="comparetotal()[pri:2, instance:tests.CheckoutTest@34a3d150]" started-at="2024-02-21T19:53:26 IST" name="comparetotal" finished-at="2024-02-21T19:53:26 IST" duration-ms="160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- comparetotal -->
+        <test-method signature="verifyFinishbtnEnabled()[pri:3, instance:tests.CheckoutTest@34a3d150]" started-at="2024-02-21T19:53:26 IST" name="verifyFinishbtnEnabled" finished-at="2024-02-21T19:53:26 IST" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFinishbtnEnabled -->
+        <test-method signature="verifysuccessmsg()[pri:4, instance:tests.CheckoutTest@34a3d150]" started-at="2024-02-21T19:53:26 IST" name="verifysuccessmsg" finished-at="2024-02-21T19:53:26 IST" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifysuccessmsg -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.CheckoutTest@34a3d150]" started-at="2024-02-21T19:53:26 IST" name="tearDown" finished-at="2024-02-21T19:53:27 IST" duration-ms="828" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CheckoutTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
